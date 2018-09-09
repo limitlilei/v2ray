@@ -34,13 +34,11 @@
             "network": "ws",
             "security": "tls",
             "tlsSettings": {
-                "serverName": "233blog.com"
+                "serverName": "233blog.com",
+                "allowInsecure": false
             },
             "wsSettings": {
-                "path": "/233blog",
-                "headers": {
-                    "Host": "233blog.com"
-                }
+                "path": "/233blog"
             }
         },
         "mux": {
